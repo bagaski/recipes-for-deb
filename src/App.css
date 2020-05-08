@@ -1,0 +1,99 @@
+body {
+  padding: 0px;
+  background-color: seashell;
+}
+
+.App {
+  font-size: 16px;
+  font-family: georgia;
+  color: #666;
+  text-align: center;
+}
+
+
+.intro {
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  line-height: 20px;
+  width: 390px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-bottom: 0px;
+  padding: 20px;
+  color: #555;
+}
+
+a {
+  color: coral;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  margin-bottom: 20px;
+}
+
+input {
+  height: 30px;
+  background-color: white;
+  border: none;
+  padding: 5px;
+  padding-left: 20px;
+  border-radius: 30px;
+  width: 300px;
+  border: 1px solid #ccc;
+  margin-bottom: 60px;
+}
+
+input:focus {
+  box-shadow: none;
+  background-color: #feffff;
+  border: none;
+
+}
+
+button {
+  height: 40px;
+  width: 80px;
+  margin-left: 5px;
+  color: white;
+  background-color: coral;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+
+}
+
+button:hover {
+
+  background-color: black;
+}
+
+/*
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+*/
+
+.card {
+  background-color: white;
+  width: 30%;
+  margin: auto;
+  border-radius: 30px;
+
+}
