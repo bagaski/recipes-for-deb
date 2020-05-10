@@ -1,5 +1,6 @@
 import React, { useEffect, useState }  from 'react';
 import Recipe from './Recipe';
+import Footer from './Footer';
 import './App.css';
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState('');
   const [query, setQuery] = useState('');
+
 
   useEffect (() => {
      getRecipes();
@@ -30,20 +32,30 @@ const App = () => {
     const getSearch = e => {
       e.preventDefault();
       setQuery(search);
+
     };
 
 
   return (
-    <div className="App">
-      <h1>Recipes for Deb!</h1>
-      <p className="intro">This is a website I made for Deb to search for recipes from Edamam API. You can use it as well whenever you feel bored of eating the same food again and again. Just enter bellow the main ingredient you are looking for and hit the search button.</p>
+    <main className="App">
+    <header>
+      <div className="left-side">
+      <div className="logo">Recipes for Deb</div>
+      <div className="intro">This is a website I made for Deb to search for recipes from <a href="https://developer.edamam.com/">Edamam API</a>. You can use it as well whenever you feel bored of eating the same food again and again. Just enter bellow the main ingredient you are looking for and hit the search button.</div>
+      </div>
+      <div className="right-side">
       <form className="search-form" onSubmit={getSearch}>
-        <input typeof="text" className="search-bar" value={search} onChange={updateSearch}></input>
+        <input typeof="text" className="search-bar" placeholder="Chose ingredient" value={search} onChange={updateSearch} autoFocus></input>
         <button typeof="submit" className="search-button">Search</button>
       </form>
+      </div>
+    </header>
+    <section className="cards">
       {recipes.map(recipe => (<Recipe title={recipe.recipe.label} url={recipe.recipe.url} image ={recipe.recipe.image} />
       ))}
-    </div>
+      </section>
+      <Footer />
+    </main>
   );
 };
 
