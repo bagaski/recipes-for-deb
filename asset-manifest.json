@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/recipes-for-deb/static/css/main.d4b0875e.chunk.css",
-    "main.js": "/recipes-for-deb/static/js/main.e6ca378b.chunk.js",
-    "main.js.map": "/recipes-for-deb/static/js/main.e6ca378b.chunk.js.map",
-    "runtime-main.js": "/recipes-for-deb/static/js/runtime-main.f9d724dd.js",
-    "runtime-main.js.map": "/recipes-for-deb/static/js/runtime-main.f9d724dd.js.map",
-    "static/js/2.106fb8cc.chunk.js": "/recipes-for-deb/static/js/2.106fb8cc.chunk.js",
-    "static/js/2.106fb8cc.chunk.js.map": "/recipes-for-deb/static/js/2.106fb8cc.chunk.js.map",
+    "main.css": "/recipes-for-deb/static/css/main.7960193c.chunk.css",
+    "main.js": "/recipes-for-deb/static/js/main.b549f676.chunk.js",
+    "main.js.map": "/recipes-for-deb/static/js/main.b549f676.chunk.js.map",
+    "runtime-main.js": "/recipes-for-deb/static/js/runtime-main.5ca826b5.js",
+    "runtime-main.js.map": "/recipes-for-deb/static/js/runtime-main.5ca826b5.js.map",
+    "static/js/2.abdc115a.chunk.js": "/recipes-for-deb/static/js/2.abdc115a.chunk.js",
+    "static/js/2.abdc115a.chunk.js.map": "/recipes-for-deb/static/js/2.abdc115a.chunk.js.map",
     "index.html": "/recipes-for-deb/index.html",
-    "precache-manifest.7c61ca77491e86b0fac60148cfe8c431.js": "/recipes-for-deb/precache-manifest.7c61ca77491e86b0fac60148cfe8c431.js",
+    "precache-manifest.4fa9aa99900927e28fa69e3dc61f6e90.js": "/recipes-for-deb/precache-manifest.4fa9aa99900927e28fa69e3dc61f6e90.js",
     "service-worker.js": "/recipes-for-deb/service-worker.js",
-    "static/css/main.d4b0875e.chunk.css.map": "/recipes-for-deb/static/css/main.d4b0875e.chunk.css.map",
-    "static/js/2.106fb8cc.chunk.js.LICENSE.txt": "/recipes-for-deb/static/js/2.106fb8cc.chunk.js.LICENSE.txt"
+    "static/css/main.7960193c.chunk.css.map": "/recipes-for-deb/static/css/main.7960193c.chunk.css.map",
+    "static/js/2.abdc115a.chunk.js.LICENSE.txt": "/recipes-for-deb/static/js/2.abdc115a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f9d724dd.js",
-    "static/js/2.106fb8cc.chunk.js",
-    "static/css/main.d4b0875e.chunk.css",
-    "static/js/main.e6ca378b.chunk.js"
+    "static/js/runtime-main.5ca826b5.js",
+    "static/js/2.abdc115a.chunk.js",
+    "static/css/main.7960193c.chunk.css",
+    "static/js/main.b549f676.chunk.js"
   ]
 }
